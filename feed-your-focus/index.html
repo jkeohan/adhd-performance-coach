@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feed Your Focus | Free ADHD Food Guide from The ADHD Performance Lab</title>
+<meta name="description" content="A simple food guide built around the nutrients your brain uses to make dopamine.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Feed Your Focus">
+<meta property="og:description" content="A simple food guide built around the nutrients your brain uses to make dopamine.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="coaching squeeze">
+<div class="page">
+<main>
+
+<section class="hero">
+<div class="hero-inner">
+<div class="hi">Free ADHD food guide</div>
+<h1>Feed Your <span class="hl">Focus.</span></h1>
+<p class="lede">A simple food guide built around the nutrients your brain uses to make dopamine. No counting and no strict rules. Just easy foods to add to the meals you already eat so focus and follow through come a little easier.</p>
+</div>
+</section>
+
+<section class="sq-sec">
+<div class="wrap">
+<div class="sq-box">
+
+<div class="sq-guide">
+<div class="sq-cover" role="img" aria-label="Feed Your Focus guide cover">
+<div class="sq-cover-top">
+<span class="sq-cover-kicker">The ADHD food guide</span>
+<span class="sq-cover-title">Feed Your Focus</span>
+</div>
+<div class="sq-cover-body">
+<span>The nutrients your brain uses to make dopamine</span>
+<span>Everyday foods that deliver them</span>
+<span>Small swaps, no all or nothing</span>
+</div>
+<div class="sq-cover-foot">The ADHD Performance Lab</div>
+</div>
+<div class="sq-guide-text">
+<h2>What’s inside</h2>
+<ul>
+<li>The key nutrients your brain relies on to build dopamine</li>
+<li>Everyday foods that give you those nutrients</li>
+<li>Easy ways to add them without changing everything at once</li>
+</ul>
+</div>
+</div>
+
+<div class="sq-form-col">
+<h2>Put your name and email below and I’ll send it over.</h2>
+<!-- Connected to Kit form "Feed Your Focus" (id 10183246) -->
+<form class="sq-form" action="https://app.kit.com/forms/10183246/subscriptions" method="post" data-kit-form>
+<label class="sr" for="ff-name">First name</label>
+<input id="ff-name" class="field" type="text" name="fields[first_name]" placeholder="First name" autocomplete="given-name" required>
+<label class="sr" for="ff-email">Email</label>
+<input id="ff-email" class="field" type="email" name="email_address" placeholder="Email" autocomplete="email" required>
+<button class="btn btn-grad" type="submit">Send me the guide →</button>
+<p class="sq-note">No spam. Unsubscribe anytime.</p>
+</form>
+<p class="sq-thanks" hidden>You’re in. Check your inbox and confirm your email so I can send you Feed Your Focus.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="sq-foot">
+<a href="../">The ADHD Performance Lab</a>
+</footer>
+</div>
+<script>
+document.querySelectorAll('.sq-form[data-kit-form]').forEach(function(f){
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = f.querySelector('button');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch(f.action, {method:'POST', body:new FormData(f), mode:'no-cors'})
+      .then(function(){
+        f.hidden = true;
+        f.parentNode.querySelector('.sq-thanks').hidden = false;
+      })
+      .catch(function(){ f.submit(); });
+  });
+});
+</script>
+</body>
+</html>
