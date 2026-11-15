@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Evening Routine | Free ADHD Sleep Guide from The ADHD Performance Lab</title>
+<meta name="description" content="Better focus tomorrow starts with what you do tonight. A simple evening routine for your ADHD brain.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Your Evening Routine">
+<meta property="og:description" content="Better focus tomorrow starts with what you do tonight. A simple evening routine for your ADHD brain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css?v=20261114b">
+</head>
+<body class="coaching squeeze">
+<div class="page">
+<main>
+
+<section class="hero">
+<div class="hero-inner">
+<div class="hi">Free ADHD sleep guide</div>
+<h1>Your Evening <span class="hl">Routine.</span></h1>
+<p class="lede">Sleep is the foundation for focus. Better focus tomorrow starts with what you do tonight, so let’s plan your evening instead of leaving it to willpower.</p>
+</div>
+</section>
+
+<section class="sq-sec">
+<div class="wrap">
+<div class="sq-box">
+
+<div class="sq-guide">
+<div class="sq-cover" role="img" aria-label="Your Evening Routine guide cover">
+<div class="sq-cover-top">
+<span class="sq-cover-kicker">The ADHD sleep guide</span>
+<span class="sq-cover-title">Your Evening Routine</span>
+</div>
+<div class="sq-cover-body">
+<span>The 3 2 1 countdown to lights out</span>
+<span>Foods that help your brain make its sleep signal</span>
+<span>A wind down you can actually stick to</span>
+</div>
+<div class="sq-cover-foot">The ADHD Performance Lab<span class="sq-cover-by">Joe Keohan<br>ADHD Performance Coach</span></div>
+</div>
+<div class="sq-guide-text">
+<h2>What’s inside</h2>
+<ul>
+<li>The 3 2 1 countdown that sets your food, drink and screen cutoffs</li>
+<li>The nutrients and foods that help your brain build its sleep signal</li>
+<li>A sample wind down plan you can fill in with your own times</li>
+<li>A one week tracker to see how better sleep changes your focus</li>
+</ul>
+</div>
+</div>
+
+<div class="sq-form-col">
+<h2>Put your name and email below and I’ll send it over.</h2>
+<!-- Connected to Kit form "Evening Routine" (id 10193228) -->
+<form class="sq-form" action="https://app.kit.com/forms/10193228/subscriptions" method="post" data-kit-form>
+<label class="sr" for="ff-name">First name</label>
+<input id="ff-name" class="field" type="text" name="fields[first_name]" placeholder="First name" autocomplete="given-name" required>
+<label class="sr" for="ff-email">Email</label>
+<input id="ff-email" class="field" type="email" name="email_address" placeholder="Email" autocomplete="email" required>
+<button class="btn btn-grad" type="submit">Send me the guide →</button>
+<p class="sq-note">You’ll also get ADHD 4 Minute Fridays, one short email every Friday. Feel free to unsubscribe at any time.</p>
+</form>
+<p class="sq-thanks" hidden>You’re in. Check your inbox and confirm your email so I can send you Your Evening Routine.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+</main>
+
+</div>
+<script>
+document.querySelectorAll('.sq-form[data-kit-form]').forEach(function(f){
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = f.querySelector('button');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch(f.action, {method:'POST', body:new FormData(f), mode:'no-cors'})
+      .then(function(){
+        f.hidden = true; var h = f.parentNode.querySelector('h2'); if (h) h.hidden = true;
+        f.parentNode.querySelector('.sq-thanks').hidden = false;
+      })
+      .catch(function(){ f.submit(); });
+  });
+});
+</script>
+</body>
+</html>
