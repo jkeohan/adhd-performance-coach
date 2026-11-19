@@ -322,3 +322,5 @@ h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:400;line-height:1.14
 @media (max-width:640px){.sad-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sad:last-child{grid-column:1/-1}}
 .nav-links a[aria-current="page"]{color:#016E69}
 main>section.sec{padding-top:0}
+.score-box.on{border:2px solid rgba(0,133,122,.55);color:#014A53;font-weight:600}
+.score-cell.last .score-box.on{border-color:#00A594;color:#014A53}
