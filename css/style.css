@@ -325,4 +325,4 @@ main>section.sec{padding-top:0}
 .score-box.on{border:2px solid rgba(0,133,122,.55);color:#014A53;font-weight:600}
 .score-cell.last .score-box.on{border-color:#00A594;color:#014A53}
 .sq-intro{font-size:19px;color:#4B4B4B;margin:0 0 28px}
-.squeeze .hero-inner h1:last-child{margin-bottom:40px}
+.squeeze .hero-inner h1:last-child{margin-bottom:0}
