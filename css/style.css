@@ -326,3 +326,12 @@ main>section.sec{padding-top:0}
 .score-cell.last .score-box.on{border-color:#00A594;color:#014A53}
 .sq-intro{font-size:19px;color:#4B4B4B;margin:0 0 28px}
 .squeeze .hero-inner h1:last-child{margin-bottom:0}
+/* Recommended reads */
+.reads .supp-media{background:#F6F6F3}
+.book-cover{height:240px;width:auto;border-radius:3px 8px 8px 3px;box-shadow:0 16px 34px rgba(1,74,83,.22)}
+.book{width:160px;height:240px;border-radius:4px 10px 10px 4px;background:linear-gradient(150deg,var(--b),#00A594 160%);box-shadow:0 16px 34px rgba(1,74,83,.25),inset 8px 0 0 rgba(255,255,255,.12);padding:26px 18px 18px 26px;display:flex;flex-direction:column;justify-content:space-between;color:#FFFFFF;text-align:left}
+.book-t{font-family:'Newsreader',Georgia,serif;font-size:26px;line-height:1.08}
+.book-a{font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;opacity:.85}
+.book-why{color:#4B4B4B;font-size:16px;margin:0 0 24px;flex-grow:1}
+@media (max-width:760px){.book{width:130px;height:196px;padding:20px 14px 14px 20px}.book-t{font-size:21px}}
+@media (max-width:760px){.book-cover{height:200px}}
