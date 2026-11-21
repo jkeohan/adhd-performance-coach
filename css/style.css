@@ -335,3 +335,15 @@ main>section.sec{padding-top:0}
 .book-why{color:#4B4B4B;font-size:16px;margin:0 0 24px;flex-grow:1}
 @media (max-width:760px){.book{width:130px;height:196px;padding:20px 14px 14px 20px}.book-t{font-size:21px}}
 @media (max-width:760px){.book-cover{height:200px}}
+.reads .supp-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.reads .supp{padding:0 24px 24px}
+.reads .supp-media{margin:0 -24px 22px;height:250px;padding:24px 0}
+.reads .book-cover{height:200px}
+.reads .supp-head .tag{font-size:10.5px}
+.reads .supp-head h3{font-size:22px;margin:6px 0 6px}
+.reads .supp-sub{font-size:14px;margin:0 0 14px}
+.reads .book-why{font-size:14.5px;line-height:1.6;margin:0 0 20px}
+.reads .supp-foot{padding-top:18px}
+.reads .supp-foot .btn{font-size:14px;padding-left:16px;padding-right:16px}
+@media (max-width:980px){.reads .supp-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.reads .supp-list{grid-template-columns:1fr}.reads .book-cover{height:200px}}
