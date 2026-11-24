@@ -359,3 +359,7 @@ main>section.sec{padding-top:0}
 .supps .supp-foot .btn{font-size:14px;padding-left:16px;padding-right:16px}
 @media (max-width:980px){.supps .supp-list:not(.one)>.supp{flex-basis:calc((100% - 20px)/2)}}
 @media (max-width:620px){.supps .supp-list:not(.one)>.supp{flex-basis:100%}}
+/* Reads categories */
+.reads-cat+.reads-cat{margin-top:96px}
+.reads-cat .supp-list{margin-top:40px}
+@media (max-width:760px){.reads-cat+.reads-cat{margin-top:64px}}
