@@ -376,3 +376,5 @@ main>section.sec{padding-top:0}
 .ff-again{display:flex;justify-content:center;margin-top:44px}
 @media (max-width:900px){.ff-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:620px){.ff-grid,.ff-stats{grid-template-columns:1fr}.ff-stats{gap:28px}}
+.squeeze .gap-sec{margin-bottom:88px;padding-top:88px}
+.squeeze .ff-inside{padding-top:0}
